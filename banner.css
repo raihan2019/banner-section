@@ -1,0 +1,68 @@
+body 
+{
+    background-image: url("Hero-bg.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+body 
+/* Header styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #4e5bf2;
+}
+
+.signup-btn {
+  padding: 10px 20px;
+  background-color: #4e5bf2;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.signup-btn :hover{
+background-color: #646bbd;
+color: aliceblue;
+}
+/* Hero section */
+.hero {
+  margin-top: 100px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.focus-btn {
+  padding: 12px 30px;
+  background-color: #4e5bf2;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.focus-btn :hover {
+  background-color: #767ed9;
+  color: aliceblue;
+}
